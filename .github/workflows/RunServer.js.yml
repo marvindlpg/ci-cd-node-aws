@@ -25,6 +25,8 @@ jobs:
         cache: 'npm'
     - run: npm i
     - run: npm start & npx wait-on http://3.220.110.16:3000/
+    - env:
+        CI: true
    
 
 
