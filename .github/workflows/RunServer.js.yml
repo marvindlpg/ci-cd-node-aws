@@ -6,6 +6,9 @@ name: Inicializar Server Joseph
 on:
   push:
     branches: [ "start" ]
+concurrency:
+  group: example-group
+  cancel-in-progress: true   
 
 jobs:
   build:
@@ -24,9 +27,5 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-   
-    # - run: npm i
-    # run: npm run build 
-    # run: npm run ci
     - run: npm start
-    # run: npm run build --if-present
+   
