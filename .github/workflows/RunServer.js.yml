@@ -7,9 +7,6 @@ on:
   push:
     branches: [ "start" ]
     
-concurrency:
-  group: example-group
-  cancel-in-progress: false  
 
 jobs:
   build:
@@ -29,4 +26,8 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm start
+
+concurrency:
+  group: example-group
+  cancel-in-progress: false  
    
