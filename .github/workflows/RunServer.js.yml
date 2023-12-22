@@ -2,10 +2,11 @@
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
 
 name: Inicializar Server Joseph
+run-name: Servidor
 on:
   push:
     branches: [ "start" ]
-run-name: Servidor
+
     
     
 jobs:
