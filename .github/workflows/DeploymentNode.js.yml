@@ -25,4 +25,4 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
      
-    - run: npm i on https://github.com/marvindlpg/ci-cd-node-aws/settings/actions/runners/2
+    #- run: npm i on https://github.com/marvindlpg/ci-cd-node-aws/settings/actions/runners/2
