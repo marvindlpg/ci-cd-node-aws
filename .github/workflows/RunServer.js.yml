@@ -5,6 +5,8 @@ name: Inicializar Server Joseph
 on:
   push:
     branches: [ "start" ]
+  run-name: Servidor
+    
     
 jobs:
   build:
