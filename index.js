@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true}));
 
 app.get('/', (req,res) =>{ 
-    res.send('Sigp - Sistema de Gestión de Procesos My bebe Hermoso Joseph'); 
+    res.send('Sigp - Mis Hermosos Joseph Marc y Ariana Michelle [Hora: 22:09]'); 
 });
 
 app.use('/api', apiRouter);
