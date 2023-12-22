@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true}));
 
 app.get('/', (req,res) =>{ 
-    res.send('Sigp - Mis Hermosos Joseph Marc y Ariana Michelle [Hora: 01:09]'); 
+    res.send('Sigp - Mis Hermosos Joseph Marc y Ariana Michelle [Hora: 01:50]'); 
 });
 
 app.use('/api', apiRouter);
