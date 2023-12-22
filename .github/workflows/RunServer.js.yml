@@ -13,7 +13,7 @@ jobs:
   build:
 
     runs-on: self-hosted
-    run-name: Servidor
+
 
     strategy:
       matrix:
