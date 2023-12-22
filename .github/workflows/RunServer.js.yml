@@ -6,6 +6,7 @@ name: Inicializar Server Joseph
 on:
   push:
     branches: [ "start" ]
+    
 concurrency:
   group: example-group
   cancel-in-progress: true   
