@@ -15,6 +15,7 @@ on:
 jobs:
    runs-on:
      name: CICD
+     
   build:
      runs-on: self-hosted
 
