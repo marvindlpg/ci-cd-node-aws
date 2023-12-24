@@ -13,10 +13,10 @@ on:
 
 jobs:
   build:
-
+  
      runs-on: self-hosted
 
-    strategy:
+     strategy:
       matrix:
         node-version: [14.16]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
