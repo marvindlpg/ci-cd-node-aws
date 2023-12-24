@@ -13,11 +13,9 @@ on:
     branches: [ "main" ]
 
 jobs:
-  build:
-
    runs-on:
      name: CICD
-
+  build:
      runs-on: self-hosted
 
     strategy:
