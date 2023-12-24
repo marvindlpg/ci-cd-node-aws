@@ -26,4 +26,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+    - run: npm stop on https://github.com/marvindlpg/ci-cd-node-aws/settings/actions/runners/22
+   
 
