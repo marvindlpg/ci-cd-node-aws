@@ -2,16 +2,13 @@
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
 
 name: Despliegue Aplicacion Node.js + Express +  Aws Lightsail
-
 runs-on:
   name: CICD
   #group: my-group
-  #labels: [ self-hosted, label-1 ]
-  
+  #labels: [ self-hosted, label-1 ]  
 on:
   push:
     branches: [ "main" ]
-
 jobs:
   build:
      runs-on: self-hosted
@@ -20,7 +17,6 @@ jobs:
       matrix:
         node-version: [14.16]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-
     steps:
     - uses: actions/checkout@v3
     - name: Use Node.js ${{ matrix.node-version }}
