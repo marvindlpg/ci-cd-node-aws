@@ -11,6 +11,7 @@ app.get('/', (req,res) =>{
     res.send('Sigp - Mis Hermosos Joseph Marc y Ariana Michelle [Hora: 19:45]'); 
 });
 
+
 app.use('/api', apiRouter);
 
 app.listen(3000, () => { 
