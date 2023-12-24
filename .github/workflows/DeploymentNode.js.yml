@@ -3,20 +3,24 @@
 
 name: Despliegue Aplicacion Node.js + Express +  Aws Lightsail
 
- 
+runs-on:
+  name: CICD
+  
 on:
   push:
     branches: [ "main" ]
 
+
 jobs:
   build:
 
-     runs-on: self-hosted
+    runs-on: self-hosted
 
-     strategy:
+    strategy:
       matrix:
         node-version: [14.16]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+
     steps:
     - uses: actions/checkout@v3
     - name: Use Node.js ${{ matrix.node-version }}
@@ -24,5 +28,4 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-     
-    #- run: npm i on https://github.com/marvindlpg/ci-cd-node-aws/settings/actions/runners/2
+
