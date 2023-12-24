@@ -3,8 +3,8 @@
 
 name: Despliegue Aplicacion Node.js + Express +  Aws Lightsail
 
-#runs-on:
-  #name: CICD
+runs-on:
+  name: CICD
   #group: my-group
   #labels: [ self-hosted, label-1 ]
   
@@ -13,7 +13,6 @@ on:
     branches: [ "main" ]
 
 jobs:
-
   build:
      runs-on: self-hosted
 
