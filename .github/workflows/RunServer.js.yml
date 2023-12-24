@@ -28,7 +28,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: npm i
+    - run: npm install 
     # - run: npm start & npx wait-on https://github.com/marvindlpg/ci-cd-node-aws/settings/actions/runners/22
     #- run: npm start on https://github.com/marvindlpg/ci-cd-node-aws/settings/actions/runners/22
     #- run: npm start & exit
