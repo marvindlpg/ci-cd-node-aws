@@ -6,6 +6,7 @@ name: Inicializar Server Joseph
 on:
   push:
     branches: [ "start" ]
+    runs-on: [CICD]
 
     
     
