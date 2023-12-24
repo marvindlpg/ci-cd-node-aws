@@ -3,15 +3,15 @@
 
 name: Despliegue Aplicacion Node.js + Express +  Aws Lightsail
 
-runs-on:
-  name: CICD
-  
 on:
   push:
     branches: [ "main" ]
 
 
 jobs:
+  runs-on:
+    name: CICD
+    
   build:
 
     runs-on: self-hosted
