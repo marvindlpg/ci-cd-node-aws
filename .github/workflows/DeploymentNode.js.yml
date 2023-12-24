@@ -2,11 +2,9 @@
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
 
 name: Despliegue Aplicacion Node.js + Express +  Aws Lightsail
-runs-on: 
-  name: ["CICD"]
-
+  
 on:
- 
+  name: ["CICD"]
   push:
     branches: [ "main" ]
 
