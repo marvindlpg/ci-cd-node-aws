@@ -6,6 +6,7 @@ name: Despliegue Aplicacion Node.js + Express +  Aws Lightsail
 on:
   push:
     branches: [ "main" ]
+    runs-on: [CICD]
 
 
 jobs:
