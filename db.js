@@ -5,8 +5,8 @@ const ProviderModel = require('./models/providers');
 const DiagnosModel = require('./models/diagnoses');
 const Related_diagnosisModel = require('./models/related_diagnoses');
 
-const sequelize = new  Sequelize('sigp2023', 'root', '' , {
-    host: 'localhost',
+const sequelize = new  Sequelize('delconsas_backendnodejs1', 'delconsa_user', 'Ariana_2017' , {
+    host: 'host5.bienvenidohosting.com',
     dialect: 'mysql'
 });
 
