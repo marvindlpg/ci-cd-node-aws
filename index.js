@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true}));
 
 app.get('/', (req,res) =>{ 
-    res.send('Sigp - Te Amo mi amor y a nuestros hermosos Ariana y Joseph Marc Dic 25 [Hora: 22:03]'); 
+    res.send('Sigp - Te Amo mi amor y a nuestros hermosos Ariana y Joseph Marc Dic 25 [Hora: 22:14]'); 
 });
 
 app.use('/api', apiRouter);
