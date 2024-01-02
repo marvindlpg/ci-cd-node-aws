@@ -32,7 +32,6 @@ jobs:
     #- run: npm start & npx wait-on https://github.com/marvindlpg/ci-cd-node-aws/settings/actions/runners/22
     #- run: npm start on https://github.com/marvindlpg/ci-cd-node-aws/settings/actions/runners/22
     #- run: npm start & exit
-    
     - run: npm start & npx wait-on http://3.220.110.16:3000/
     #- run: npm start & npx wait-on https://github.com/marvindlpg/ci-cd-node-aws/settings/actions/runners/22/
 
